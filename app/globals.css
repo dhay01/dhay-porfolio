@@ -24,6 +24,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
 }
 
 @layer utilities {
@@ -31,3 +32,13 @@ body {
     text-wrap: balance;
   }
 }
+/*ul { list-style: none; } !* Remove default bullets *!*/
+
+/*li::before {*/
+/*  content: "✮"; !* Unicode bullet symbol *!*/
+/*  color: #ffc0fe;  !* Bullet color *!*/
+
+/*  !* Optional tweaks *!*/
+/*  font-weight: bold;*/
+/*  padding-right: 10px;*/
+/*}*/
